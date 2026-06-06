@@ -6,11 +6,11 @@
 
 前 **2104** 个单词出现 **40** 次以上，即平均每做 **5** 套试卷就能遇到一次的这些单词即为真正的**高频词汇**。
 
-释义目前采用机器翻译，还没有经过完全校对。
+与考研词汇重合的词条，释义和分类已对齐考研词汇数据；不重合的词条保留四六级原始数据。
 
 每个单词有其他拼写（即考纲当中有多种写法的单词）的，一并列出，以保证原始数据的准确性。目前根据[这个数据](https://github.com/awxiaoxian2020/spelling-variations/blob/dev/src/bydictionary.json)进行了初步填充。有空再和考纲校对。
 
-[cet_full_list.json](https://github.com/exam-data/CETVocabulary/blob/master/cet_full_list.json) 里面存储了所有的数据。也已转换成 [sql 文件](https://github.com/exam-data/CETVocabulary/blob/master/cet_full_list.sql)。
+[cet_full_list.json](https://github.com/exam-data/CETVocabulary/blob/master/cet_full_list.json) 里面存储了所有的数据，字段包括 `序号`、`词频`、`六级`、`单词`、`释义`、`其他拼写`、`分类`、`子分类`。也已转换成 [sql 文件](https://github.com/exam-data/CETVocabulary/blob/master/cet_full_list.sql)。
 
 本仓库数据基于 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 共享，程序基于 [MIT License](https://github.com/exam-data/CETVocabulary/blob/master/LICENSE-CODE).
 
